@@ -1,0 +1,48 @@
+Table employees {
+  id integer [primary key]
+  firstName varchar
+  lastName varchar
+  gender varchar
+  yearOfBirth integer
+  computerId integer
+  departmentId integer
+  locationId integer
+  employeeCustomers integer
+}
+
+Table computers {
+  id integer [primary key]
+  model varchar
+  year integer
+}
+
+Table departments {
+  id integer [primary key]
+  name varchar
+}
+
+Table locations {
+  id integer [primary key]
+  location varchar
+}
+
+Table customers {
+  id integer [primary key]
+  name varchar
+}
+
+Table employeeCustomers {
+  id integer [primary key]
+  customerId integer
+  employeeId integer
+}
+
+Ref: "computers"."id" - "employees"."computerId"
+
+Ref: "departments"."id" < "employees"."departmentId"
+
+Ref: "employeeCustomers"."customerId" > "customers"."id"
+
+Ref: "employeeCustomers"."employeeId" > "employees"."id"
+
+Ref: "locations"."location" < "employees"."locationId"

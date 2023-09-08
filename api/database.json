@@ -1,0 +1,303 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Macbook Air",
+            "year": 2016
+        },
+        {
+            "id": 3,
+            "model": "Dell XPS",
+            "year": 2017
+        },
+        {
+            "id": 4,
+            "model": "Lenovo ThinkPad",
+            "year": 2018
+        },
+        {
+            "id": 5,
+            "model": "HP Spectre",
+            "year": 2019
+        },
+        {
+            "id": 6,
+            "model": "Asus ZenBook",
+            "year": 2020
+        },
+        {
+            "id": 7,
+            "model": "Microsoft Surface",
+            "year": 2021
+        },
+        {
+            "id": 8,
+            "model": "Acer Predator",
+            "year": 2018
+        },
+        {
+            "id": 9,
+            "model": "Razer Blade",
+            "year": 2019
+        },
+        {
+            "id": 10,
+            "model": "Macbook Pro",
+            "year": 2020
+        },
+        {
+            "id": 11,
+            "model": "Dell Inspiron",
+            "year": 2017
+        },
+        {
+            "id": 12,
+            "model": "Lenovo Yoga",
+            "year": 2018
+        },
+        {
+            "id": 13,
+            "model": "HP Pavilion",
+            "year": 2016
+        },
+        {
+            "id": 14,
+            "model": "Asus ROG",
+            "year": 2021
+        },
+        {
+            "id": 15,
+            "model": "Dell Latitude",
+            "year": 2023
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "gender": "Female",
+            "yearOfBirth": 1985,
+            "computerId": 1,
+            "departmentId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "John",
+            "lastName": "Doe",
+            "gender": "Male",
+            "yearOfBirth": 1990,
+            "computerId": 2,
+            "departmentId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "gender": "Female",
+            "yearOfBirth": 1988,
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 3
+        },
+        {
+            "id": 4,
+            "firstName": "Alice",
+            "lastName": "Johnson",
+            "gender": "Female",
+            "yearOfBirth": 1992,
+            "computerId": 4,
+            "departmentId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Bob",
+            "lastName": "Williams",
+            "gender": "Male",
+            "yearOfBirth": 1987,
+            "computerId": 5,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 6,
+            "firstName": "Charlie",
+            "lastName": "Brown",
+            "gender": "Male",
+            "yearOfBirth": 1991,
+            "computerId": 6,
+            "departmentId": 2,
+            "locationId": 3
+        },
+        {
+            "id": 7,
+            "firstName": "David",
+            "lastName": "Jones",
+            "gender": "Male",
+            "yearOfBirth": 1989,
+            "computerId": 7,
+            "departmentId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 8,
+            "firstName": "Eve",
+            "lastName": "Davis",
+            "gender": "Female",
+            "yearOfBirth": 1993,
+            "computerId": 8,
+            "departmentId": 3,
+            "locationId": 2
+        },
+        {
+            "id": 9,
+            "firstName": "Frank",
+            "lastName": "Miller",
+            "gender": "Male",
+            "yearOfBirth": 1986,
+            "computerId": 9,
+            "departmentId": 3,
+            "locationId": 3
+        },
+        {
+            "id": 10,
+            "firstName": "Grace",
+            "lastName": "Wilson",
+            "gender": "Female",
+            "yearOfBirth": 1994,
+            "computerId": 10,
+            "departmentId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 11,
+            "firstName": "Hannah",
+            "lastName": "Taylor",
+            "gender": "Female",
+            "yearOfBirth": 1990,
+            "computerId": 11,
+            "departmentId": 4,
+            "locationId": 2
+        },
+        {
+            "id": 12,
+            "firstName": "Ivan",
+            "lastName": "Anderson",
+            "gender": "Male",
+            "yearOfBirth": 1988,
+            "computerId": 12,
+            "departmentId": 4,
+            "locationId": 3
+        },
+        {
+            "id": 13,
+            "firstName": "Jill",
+            "lastName": "Thomas",
+            "gender": "Female",
+            "yearOfBirth": 1992,
+            "computerId": 13,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 14,
+            "firstName": "Kevin",
+            "lastName": "Jackson",
+            "gender": "Male",
+            "yearOfBirth": 1987,
+            "computerId": 14,
+            "departmentId": 4,
+            "locationId": 2
+        },
+        {
+            "id": 15,
+            "firstName": "Linda",
+            "lastName": "Martinez",
+            "gender": "Female",
+            "yearOfBirth": 1990,
+            "computerId": 15,
+            "departmentId": 2,
+            "locationId": 1
+        }        
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Accounting"
+        },
+        {
+            "id": 2,
+            "name": "Sales"
+        },
+        {
+            "id": 3,
+            "name": "Quality Assurance"
+        },
+        {
+            "id": 4,
+            "name": "Tech Support"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville"
+        },
+        {
+            "id": 2,
+            "name": "Atlanta"
+        },
+        {
+            "id": 3,
+            "name": "Memphis"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "TechCorp Solutions"
+        },
+        {
+            "id": 2,
+            "name": "Green Energy Innovations"
+        },
+        {
+            "id": 3,
+            "name": "Urban Design Studios"
+        },
+        {
+            "id": 4,
+            "name": "HealthFirst Medicals"
+        },
+        {
+            "id": 5,
+            "name": "EduTech Learning Centers"
+        },
+        {
+            "id": 6,
+            "name": "Foodie Delights Inc."
+        }
+    ],
+    "employeeCustomers": [
+        {"id": 1, "customerId": 1, "employeeId": 3},
+        {"id": 2, "customerId": 1, "employeeId": 4},
+        {"id": 3, "customerId": 2, "employeeId": 5},
+        {"id": 4, "customerId": 2, "employeeId": 6},
+        {"id": 5, "customerId": 3, "employeeId": 7},
+        {"id": 6, "customerId": 3, "employeeId": 15},
+        {"id": 7, "customerId": 4, "employeeId": 3},
+        {"id": 8, "customerId": 4, "employeeId": 4},
+        {"id": 9, "customerId": 5, "employeeId": 5},
+        {"id": 10, "customerId": 5, "employeeId": 6},
+        {"id": 11, "customerId": 6, "employeeId": 7},
+        {"id": 12, "customerId": 6, "employeeId": 15}
+    ]
+}
